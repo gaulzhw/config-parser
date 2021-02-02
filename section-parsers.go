@@ -269,6 +269,7 @@ func getBackendParser() *Parsers {
 		&simple.Timeout{Name: "server"},
 		&simple.Timeout{Name: "server-fin"},
 		&simple.Timeout{Name: "connect"},
+		&simple.Timeout{Name: "client"},
 
 		&parsers.DefaultServer{},
 		&parsers.Stick{},
