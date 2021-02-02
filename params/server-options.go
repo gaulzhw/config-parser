@@ -126,7 +126,7 @@ func getServerOptions() []ServerOption {
 		&ServerOptionWord{Name: "check"},
 		&ServerOptionWord{Name: "check-send-proxy"},
 		&ServerOptionWord{Name: "check-ssl"},
-		&ServerOptionWord{Name: "ssl"},
+		&ServerOptionWord{Name: "nossl"},
 		&ServerOptionWord{Name: "check-via-socks4"},
 		&ServerOptionWord{Name: "disabled"},
 		&ServerOptionWord{Name: "enabled"},
